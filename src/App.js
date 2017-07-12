@@ -3,7 +3,9 @@ import './App.css';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Home from './containers/Home';
-import Register from './containers/Register'
+import Register from './containers/Register';
+import WeatherData from './containers/WeatherData'; 
+
 
 //return the Router to set up the routes
 

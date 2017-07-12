@@ -7,10 +7,12 @@
 import {combineReducers} from 'redux'; 
 
 import HomeReducer from './HomeReducer';
+import WeatherReducer from './WeatherReducer'
 
 //create a rootReducer using hte combineReducer method, so we can export it to
 //the Store in index.js
 const rootReducer = combineReducers({
+	weather:WeatherReducer
 
 	//inside here, we pass each reducer as a key/value
 	//each key will be available as a piece of state laster
